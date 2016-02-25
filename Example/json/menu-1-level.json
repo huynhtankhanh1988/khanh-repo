@@ -1,0 +1,107 @@
+{
+  "objectId":"zUyHtg3EYK",
+  "affiliateId":"750",
+  "name":"Main Mobile Menu",
+  "platform":"iOS",
+  "version":"5",
+  "updatedAt":"2016-02-12T16:27:25.521Z",
+  "createdAt":"2016-02-12T16:27:25.521Z",
+  "config":[
+    {
+      "menuItemType":"category",
+      "level":1,
+      "order":1,
+      "categoryNumber":"1179",
+      "text":"Home",
+      "openInBrowser":"false",
+      "viewLayout":"list",
+      "appVersion":"list",
+      "itemPerFeed":"10",
+      "photoPlacement":"left",
+      "itemsOnHomeScreen":"10",
+      "includeInNavigation":true,
+      "showAds":"true",
+      "adTarget":"Home",
+      "pushSegment":"pushSegment",
+      "headerFontColor":"#FFFFFF"
+    },
+    {
+      "menuItemType":"feed",
+      "level":"2",
+      "order":"1",
+      "text":"Sports",
+      "feed" :[
+        {"url":"http://worldnow.com/..."},
+        {"url":"http://worldnow.com/..."}
+      ],
+      "numberOfShownItems":"20",
+      "appVersion":"list",
+      "itemPerFeed":"10",
+      "photoPlacement":"",
+      "itemsOnHomeScreen":"10",
+      "includeInNavigation":"",
+      "showAds":"true",
+      "adTarget":"Home",
+      "pushSegment":"pushSegment",
+      "headerFontColor":"#FFFFFF",
+      "viewLayout":"list"
+    },
+    {
+      "menuItemType":"link",
+      "level":"3",
+      "order":"1",
+      "text":"Local Sports",
+      "webView" :{
+        "url" : "http://www.wxyz.com"
+      },
+      "link":"http://www.wxyz.com",
+      "openInBrowser":"false",
+      "showAds":"false",
+      "viewLayout":"web-view"
+    },
+    {
+      "menuItemType":"category",
+      "viewLayout":"list",
+      "level":"2",
+      "order":"2",
+      "text":"Sports",
+      "categoryNumber":"1179",
+      "numberOfShownItems":"20",
+      "showAds":"true",
+      "adTarget":"Home",
+      "pushSegment":"pushSegment",
+      "headerFontColor":"#FFFFFF"
+    },
+    {
+      "menuItemType":"weather",
+      "level":"2",
+      "order":"3",
+      "text":"Weather",
+      "currentConditions":"true",
+      "todaysForecast":"true",
+      "videoForecast":"true",
+      "interactiveRadar":"true",
+      "weatherImages": "true",
+      "viewLayout":"weather"
+    },
+    {
+      "menuItemType":"slideshow",
+      "level":"3",
+      "order":"1",
+      "text":"Local Weather",
+      "slideShow":[
+        {"url":"http://worldnow.com..."},
+        {"url":"http://worldnow.com..."}
+      ],
+      "photoPlacement":"left",
+      "includeInNavigation":"true",
+      "appVersion":"list",
+      "itemPerFeed":"10",
+      "itemsOnHomeScreen":"10",
+      "showAds":"true",
+      "adTarget":"Home",
+      "pushSegment":"pushSegment",
+      "headerFontColor":"#FFFFFF"
+    }
+  ]
+}

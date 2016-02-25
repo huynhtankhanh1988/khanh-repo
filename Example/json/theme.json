@@ -1,0 +1,18 @@
+{
+  "objectId":"zUyHtg3EYK",
+  "affiliateId":"750",
+  "name":"Main Mobile Menu",
+  "platform":"iOS",
+  "version":"5",
+  "updatedAt":"2016-02-12T16:27:25.521Z",
+  "createdAt":"2016-02-12T16:27:25.521Z",
+  "config": {
+    "foregroundColor1": "346644",
+    "foregroundColor2": "FA1234",
+    "backgroundColor1": "FA1234",
+    "backgroundColor12": "FA1234",
+    "breakingNewsColor": "CB3243",
+    "fontsFaces": "",
+    "headerFontColor": "121242"
+  }
+}

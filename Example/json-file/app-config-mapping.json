@@ -1,0 +1,132 @@
+{
+  "client": {
+    "properties" : ["xmlns", "xmlns:xsi", "xmlns:xs", "xmlns:ns", "xmlns:hfp",
+      "brand-header-image-url", "default-item-photo-url", "item-photo-placement", "partner-id",
+      "partner-name" , "push-enabled", "xsi:schemaLocation"],
+    "mapping": {
+      "xmlns": "xmlns",
+      "xmlns:xsi": "xmlns:xsi",
+      "xmlns:xs": "xmlns:xs",
+      "xmlns:ns": "xmlns:ns",
+      "xmlns:hfp": "xmlns:hfp",
+      "brand-header-image-url" : "brand-header-image-url",
+      "default-item-photo-url" : "default-item-photo-url",
+      "item-photo-placement": "item-photo-placement",
+      "partner-id": "partner-id",
+      "partner-name": "partner-name" ,
+      "push-enabled" : "push-enabled",
+      "xsi:schemaLocation" : "xsi:schemaLocation",
+      "pushBehavior" : "pushBehavior",
+      "reportingBehavior" : "reportingBehavior",
+      "adBehavior" : "adBehavior",
+      "brandCustomization" : "brandCustomization",
+      "settings" : "settings",
+      "frn-weather" : "frn-weather",
+      "section" : "section"
+    },
+    "pushBehavior": {
+      "properties" : ["enabled", "frn-default-provider", "production-app-id", "production-app-key"],
+      "mapping" : {
+        "enabled" : "enabled",
+        "frn-default-provider" : "frn-default-provider",
+        "production-app-id" : "production-app-id",
+        "production-app-key" : "production-app-key"
+      }
+    },
+    "reportingBehavior": {
+      "properties" : ["id"],
+      "mapping" : {
+        "id" : "id"
+      }
+    },
+    "adBehavior": {
+      "properties" : ["exclude-device", "network", "network-key", "show-ads", "frn-show-native-ads", "url", "random-number-parameter", "video-preroll-url", "frn-interstitial-ad-enabled", "frn-interstitial-ad-placeholder-image-url", "frn-interstitial-ad-server", "frn-interstitial-ad-unit-id" , "frn-interstitial-ad-trigger-event", "frn-interstitial-ad-show-percentage", "frn-interstitial-ad-max-time-between-ads", "frn-interstitial-ad-min-time-between-ads", "frn-interstitial-ad-placeholder-timeout"],
+      "mapping" : {
+        "exclude-device" :"exclude-device",
+        "network" : "network",
+        "network-key" : "network-key",
+        "show-ads" : "show-ads",
+        "frn-show-native-ads": "frn-show-native-ads",
+        "url" :"url",
+        "random-number-parameter" : "random-number-parameter",
+        "video-preroll-url" : "video-preroll-url",
+        "frn-interstitial-ad-enabled" : "frn-interstitial-ad-enabled",
+        "frn-interstitial-ad-placeholder-image-url" : "frn-interstitial-ad-placeholder-image-url",
+        "frn-interstitial-ad-server" : "frn-interstitial-ad-server",
+        "frn-interstitial-ad-unit-id" : "frn-interstitial-ad-unit-id",
+        "frn-interstitial-ad-trigger-event" : "frn-interstitial-ad-trigger-event",
+        "frn-interstitial-ad-show-percentage" : "frn-interstitial-ad-show-percentage",
+        "frn-interstitial-ad-max-time-between-ads" : "frn-interstitial-ad-max-time-between-ads",
+        "frn-interstitial-ad-min-time-between-ads" : "frn-interstitial-ad-min-time-between-ads",
+        "frn-interstitial-ad-placeholder-timeout" : "frn-interstitial-ad-placeholder-timeout"
+      }
+    },
+    "brandCustomization": {
+      "properties" : ["fg-color-1", "fg-color-2", "bg-color-1", "breaking-news-color", "font-1", "font-2"],
+      "mapping" : {
+        "fg-color-1" : "fg-color-1",
+        "fg-color-2" : "fg-color-2",
+        "bg-color-1" :"bg-color-1",
+        "breaking-news-color" : "breaking-news-color",
+        "font-1" : "font-1",
+        "font-2":"font-2"
+      }
+    },
+    "settings": {
+      "properties" : ["news-tip-email", "share-photo-email", "bug-report-email", "call-us-phone", "about-us-url", "privacy-policy-url", "tos-url"],
+      "mapping" : {
+        "news-tip-email" : "news-tip-email",
+        "share-photo-email" : "share-photo-email",
+        "bug-report-email" : "bug-report-email",
+        "call-us-phone" : "call-us-phone",
+        "about-us-url" : "about-us-url",
+        "privacy-policy-url" : "privacy-policy-url",
+        "tos-url": "tos-url"
+      }
+    },
+    "frn-weather": {
+      "properties" : ["link", "hide-hilo"],
+      "mapping" : {
+        "link" : "link",
+        "hide-hilo": "hide-hilo"
+      }
+    },
+    "section": {
+      "properties" : [
+        "frn-show-in-version" , "frn-items-in-homepage",
+        "frn-header-font-color", "frn-exclude-from-pager",
+        "frn-push-segmentation-tag", "icon-url", "title",
+        "item-photo-placement", "items-per-feed", "view-layout", "exclude-device"
+      ],
+      "mapping" : {
+        "frn-show-in-version" : "frn-show-in-version",
+        "frn-items-in-homepage": "frn-items-in-homepage" ,
+        "frn-header-font-color" : "frn-header-font-color",
+        "frn-exclude-from-pager" : "frn-exclude-from-pager",
+        "frn-push-segmentation-tag" : "frn-push-segmentation-tag",
+        "icon-url" : "icon-url",
+        "title" : "title",
+        "item-photo-placement" : "item-photo-placement",
+        "items-per-feed" : "items-per-feed",
+        "view-layout" : "view-layout",
+        "exclude-device": "exclude-device",
+        "feed" : "feed"
+      },
+      "feed":{
+        "properties" : [
+          "items-per-feed", "item-query-suffix" , "exclude-device", "title", "url", "frn-premium-url",
+          "view-layout"
+        ],
+        "mapping" : {
+          "items-per-feed" : "items-per-feed",
+          "item-query-suffix" : "item-query-suffix",
+          "exclude-device" : "exclude-device",
+          "title" : "title",
+          "url" : "url" ,
+          "frn-premium-url" : "frn-premium-url",
+          "view-layout" : "view-layout"
+        }
+      }
+    }
+  }
+}

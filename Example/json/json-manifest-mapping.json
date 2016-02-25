@@ -1,0 +1,208 @@
+{
+  "common": {
+
+  },
+  "menu" : {
+      "text" : "title",
+      "link": "url",
+      "viewLayout" : "view-layout",
+      "showAds" : "suppress-ads",
+      "appVersion" : "frn-show-in-version",
+      "itemPerFeed" : "items-per-feed",
+      "photoPlacement" : "item-photo-placement",
+      "itemsOnHomeScreen" : "frn-items-in-homepage",
+      "includeInNavigation" : "frn-exclude-from-pager",
+      "adTarget" : "ad-target",
+      "headerFontColor" : "frn-header-font-color",
+      "children" : "section",
+      "webView" : {
+        "url" : "url"
+      },
+      "feed" : {
+        "url" : "url"
+      }
+  },
+  "theme": {
+    "foregroundColor1": "fg-color-1",
+    "foregroundColor2": "fg-color-2",
+    "backgroundColor1": "bg-color-1",
+    "breakingNewsColor": "breaking-news-color",
+    "fontsFaces": "font-1",
+    "font2": "font-2",
+    "headerFontColor": "header-font-color"
+  },
+  "setting": {
+    "general" : {
+      "brandName" : "brandName"
+    },
+    "premiumFeeds" : {
+      "generalApiKey" : "generalApiKey",
+      "appApiKey" : "apikey",
+      "contextAffiliateId" : "context-affiliate-id",
+      "category" : {
+        "rootUrl" : "frn-premium-url",
+        "queryString" : "item-query-suffix"
+      },
+      "slideShow" : {
+        "rootUrl" : "frn-premium-url",
+        "queryString" : "item-query-suffix"
+      }
+    },
+    "pushBehavior": {
+      "enabled": "enabled",
+      "defaultProvider": "frn-default-provider",
+      "pushService" : "pushService",
+      "urbanAirship" : {
+        "appID" : "production-app-id",
+        "apiKey" : "production-app-key"
+      },
+      "parse" : {
+        "appID" : "production-app-id",
+        "apiKey" : "production-app-key"
+      },
+      "channels" :{
+        "chanelId" : "push-segmentation-tag"
+      }
+    },
+    "reportingBehavior": {
+      "id": "id"
+    },
+    "adBehavior":
+    {
+      "network": "network",
+      "networkKey": "network-key",
+      "adAutoHideEnabled" : "banner-ad-auto-hide-enabled",
+      "showAds": "show-ads",
+      "randomNumberParameter": "random-number-parameter",
+      "videoPrerollUrl": "video-preroll-url",
+      "videoEnable": "video-enable",
+      "interstitialAdEnabled": "interstitial-ad-enabled",
+      "interstitialAdPlaceholderImageUrl": "interstitial-ad-placeholder-image-url",
+      "interstitialAdServer": "interstitial-ad-server",
+      "interstitialAdTriggerEvent": "interstitial-ad-trigger-event",
+      "interstitialAdShowPercentage": "interstitial-ad-show-percentage",
+      "interstitialAdMaxtimeBetweenAds": "interstitial-ad-max-time-between-ads",
+      "interstitialAdMintimeBetweenAds": "interstitial-ad-min-time-between-ads",
+      "interstitialAdPlaceholderTimeout": "interstitial-ad-placeholder-timeout",
+      "recommendation" : {
+        "outbrain" : {
+          "widgetId" : "frn-outbrain-widgetId",
+          "partnerKey" : "",
+          "enabled" : "true"
+        }
+      }
+    },
+    "breakingNews" : {
+      "viewLayout" : "view-layout",
+      "feedUrl" : "frn-premium-url",
+      "showInVersion" : "show-in-version",
+      "itemsInHomepage" : "frn-items-in-homepage",
+      "suppressAds" : "suppress-ads",
+      "adTarget" : "ad-target"
+    },
+    "video" : {
+      "closedCaption" :{
+        "captionsUrl" : ""
+      }
+    },
+    "weather" : {
+      "wsi" : {
+        "memberId" : "",
+        "mapId" : "",
+        "serviceId" : "",
+        "sdkKey" : ""
+      },
+      "conditions" : {
+        "basicConditions" : "true/false",
+        "detailedReadings" : "true/false",
+        "sunAndMoon" : "true/false"
+      },
+      "textForecast" : {
+        "feedUrl" : "",
+        "feed" : {
+          "viewLayout" : "todays-forecast",
+          "premiumUrl" : ""
+        }
+      },
+      "dailyForecast" : {
+        "feedUrl" : "",
+        "feed" : {
+          "viewLayout" : "extended-forecast-vertical",
+          "premiumUrl" : ""
+        },
+        "defaultWeatherStation" : {
+          "defaultUrl" : "",
+          "filter" : "category contains[cd] 'multi day forecast' AND title contains[cd] 'KMWA"
+        }
+      },
+      "hourlyForecast " : {
+        "feedUrl" : "",
+        "feed" : {
+          "viewLayout" : "hourly-forecast",
+          "premiumUrl" : ""
+        }
+      },
+      "videoForecast " : {
+        "feedURL" : "",
+        "feed" : {
+          "viewLayout" : "list",
+          "premiumUrl" : ""
+        }
+      },
+      "weatherImages" : {
+        "feed" : {
+          "viewLayout" : "list",
+          "premiumUrl" : ""
+        }
+      },
+      "weatherRadar" :
+      {
+        "defaultCenterLat" : "123.456",
+        "defaultCenterLong" : "123.456",
+        "defaultAltitude" : "55000",
+        "defaultOverlays" : "",
+        "defaultLayer" : "Radar",
+        "suppressAds" : "true"
+      },
+      "additionalWeatherOptions" :
+      {
+        "hideWeatherInBranding" : {
+          "isChecked" : "false"
+        },
+        "disableWeatherLinkInBranding" : {
+          "isChecked" : "false"
+        },
+        "hideHi/LoInBranding" :{
+          "isChecked" : "false"
+        }
+      }
+    },
+    "trafficMap" : {
+      "defaultCenterLat" : "default-center-lat",
+      "defaultCenterLong" : "default-center-long",
+      "defaultAltitude" : "default-altitude",
+      "defaultOverlays" : "default-overlays",
+      "defaultLayer" : "default-layer",
+      "suppressAds" : "suppress-ads"
+    },
+    "settings": {
+      "newsTipEmail": "news-tip-email",
+      "sharePhotoEmail": "share-photo-email",
+      "bugReportEmail": "bug-report-email",
+      "callusPhone": "call-us-phone",
+      "aboutusUrl": "about-us-url",
+      "privacyPolicyUrl": "privacy-policy-url",
+      "toSurl": "tos-url",
+      "facebook" :{
+        "fbAppId" : "facebook-id",
+        "secret" : "facebook-secret",
+        "userName" : "facebook-username"
+      },
+      "twitterHandle" : "twitter-username",
+      "instagramUserName" : "instagram-username",
+      "primaryBlogUrl" : "blog-url",
+      "secondaryBlogUrl" : "secondaryBlogUrl",
+      "ugcUrl" : "ugc-url"
+    }
+  }
+}

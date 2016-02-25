@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "express": "2.5.8",
+    "jade": ">= 0.0.1",
+    "node-entity": "^0.5.3",
+    "nodejs-model": "^0.1.6"
+  }
+}

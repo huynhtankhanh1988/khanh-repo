@@ -1,0 +1,224 @@
+{
+  "objectId":"zUyHtg3EYK",
+  "affiliateId":"750",
+  "name":"Main Mobile Menu",
+  "platform":"iOS",
+  "version":"5",
+  "updatedAt":"2016-02-12T16:27:25.521Z",
+  "createdAt":"2016-02-12T16:27:25.521Z",
+  "config": {
+    "general" : {
+      "brandName" : "",
+      "availableApp" : [{
+        "iPhone" :
+        {
+          "ischeck" : "false"
+        },
+        "iPad": {
+          "ischeck" : "false"
+        },
+        "android" : {
+          "ischeck" : "false"
+        },
+        "roku" : {
+          "ischeck" : "false"
+        },
+        "appleTv" : {
+          "ischeck" : "false"
+        },
+        "fireTv" : {
+          "ischeck" : "false"
+        }
+      }
+      ],
+      "cmsCustomer" : "false"
+    },
+    "premiumFeeds" : {
+      "generalApiKey" : "",
+      "appApiKey" : "",
+      "contextAffiliateId" : "",
+      "category" : {
+        "rootUrl" : "category-url",
+        "queryString" : "category-query"
+      },
+      "slideShow" : {
+        "rootUrl" : "slide-show-url",
+        "queryString" : "slide-show-query"
+      }
+    },
+    "pushBehavior": {
+      "enabled": "true",
+      "defaultProvider": "parse",
+      "urbanAirship" : {
+        "appID" : "app-id-1986523584",
+        "apiKey" : "app-key-1986523584"
+      },
+      "parse" : {
+        "appID" : "parse-app-id-1986523584",
+        "apiKey" : "parse-app-key-1986523584"
+      },
+      "channels" :[{
+        "chanelName" : "",
+        "chanelId" : "chanel-id-19862354"
+      }]
+    },
+    "reportingBehavior": {
+      "id": "UA-5728818-51"
+    },
+    "adBehavior": {
+      "network": "dfp",
+      "networkKey": "/43459271/nat-mob/wrcb/app-news",
+      "autoHideEnabled": "true",
+      "showAds": "false",
+      "videoPrerollUrl": "",
+      "videoEnable" : "true",
+      "randomNumberParameter": "",
+      "interstitialAdEnabled": "true",
+      "interstitialAdPlaceholderImageUrl": "",
+      "interstitialAdServer": "dfp",
+      "interstitialAdUnitId": "",
+      "interstitialAdTriggerEvent": "foreground",
+      "interstitialAdShowPercentage": "100",
+      "interstitialAdMaxTimeBetweenAds": "300000",
+      "interstitialAdMinTimeBetweenAds": "12000",
+      "interstitialAdPlaceholderTimeout": "5000",
+      "recommendation": {
+        "outbrain": {
+          "enabled": "false",
+          "widgetId": "",
+          "partnerKey": ""
+        }
+      }
+    },
+    "breakingNews" : {
+      "viewLayout":"list",
+      "feedUrl" : "http://terralogic.com",
+      "showInVersion" : "list",
+      "itemsInHomepage" : "",
+      "suppressAds" : "true",
+      "adTarget" : ""
+    },
+    "video" : {
+      "closedCaption" :{
+        "captionUrl" : ""
+      }
+    },
+    "weather" : {
+      "wsi" : {
+        "memberId" : "",
+        "mapId" : "",
+        "serviceId" : "",
+        "sdkKey" : ""
+      },
+      "conditions" : {
+        "basicConditions" : "true",
+        "detailedReadings" : "true",
+        "sunAndMoon" : "true"
+      },
+      "textForecast" : {
+        "feedUrl" : "",
+        "feed" : {
+          "viewLayout" : "todays-forecast",
+          "premiumUrl" : ""
+        }
+      },
+      "dailyForecast" : {
+        "feedUrl" : "",
+        "feed" : {
+          "viewLayout" : "extended-forecast-vertical",
+          "premiumUrl" : ""
+        },
+        "defaultWeatherStation" : {
+          "defaultUrl" : "",
+          "filter" : "category contains[cd] 'multi day forecast' AND title contains[cd] 'KMWA"
+        }
+      },
+      "hourlyForecast " : {
+        "feedUrl" : "",
+        "feed" : {
+          "viewLayout" : "hourly-forecast",
+          "premiumUrl" : ""
+        }
+      },
+      "videoForecast " : {
+        "feedURL" : "",
+        "feed" : {
+          "viewLayout" : "list",
+          "premiumUrl" : ""
+        }
+      },
+      "weatherImages" : {
+        "feed" : {
+          "viewLayout" : "list",
+          "premiumUrl" : ""
+        }
+      },
+      "weatherRadar" :
+      {
+        "defaultCenterLat" : "123.456",
+        "defaultCenterLong" : "123.456",
+        "defaultAltitude" : "55000",
+        "defaultOverlays" : "",
+        "defaultLayer" : "Radar",
+        "suppressAds" : "true"
+      },
+      "additionalWeatherOptions" : {
+        "hideWeatherInBranding" : {
+          "isChecked" : "false"
+        },
+        "disableWeatherLinkInBranding" : {
+          "isChecked" : "false"
+        },
+        "hideHiLoInBranding" :{
+          "isChecked" : "false"
+        }
+      }
+    },
+    "trafficMap" :
+    {
+      "defaultCenterLat" : "123.456",
+      "defaultCenterLong" : "123.456",
+      "defaultAltitude" : "55000",
+      "defaultOverlays" : "TrafficIncidents",
+      "defaultLayer" : "Radar",
+      "suppressAds" : "true"
+    },
+    "settings": {
+      "newsTipEmail": "newstip@wrcbtv.com",
+      "sharePhotoEmail": "pix@wrcbtv.com",
+      "bugReportEmail": "news-app-support@franklyinc.com",
+      "callusPhone": "423-266-5039",
+      "aboutusUrl": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_about.html",
+      "privacyPolicyUrl": "http://www.wrcbtv.com/story/18990/privacy-policy?clienttype=smartdevice",
+      "toSurl": "http://www.wrcbtv.com/story/18991/terms-of-service?clienttype=smartdevice",
+      "facebook" :{
+        "fbAppId" : "",
+        "secret" : "",
+        "userName" : ""
+      },
+      "twitterHandle" : "",
+      "instagramUserName" : "",
+      "primaryBlogUrl" : "",
+      "secondaryBlogUrl" : "",
+      "ugcUrl" : ""
+    },
+    "storeAccounts": {
+      "apple": {
+        "userid": "",
+        "password": ""
+      },
+      "googlePlay": {
+        "userid": "",
+        "password": ""
+      },
+      "roku": {
+        "userid": "",
+        "password": ""
+      },
+      "amazon": {
+        "userid": "",
+        "password": ""
+      }
+    }
+  }
+}

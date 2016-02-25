@@ -1,0 +1,97 @@
+{
+      "objectId": "nAYXCIciRV",
+      "id": 1456218185516,
+      "name": "Menu 1",
+      "affiliateId": "69",
+      "auditTrail": {
+        "creationDate": "2016-02-23T09:03:05.516Z",
+        "lastEditedDate": "2016-02-23T09:13:38.443Z"
+      },
+      "config": [
+        {
+          "text": "Category",
+          "level": 1,
+          "order": 1,
+          "menuItemType": "category",
+          "typeFamily": "category_type",
+          "viewLayout": "list",
+          "appVersion": "list",
+          "itemPerFeed": 20,
+          "itemsOnHomeScreen": 5,
+          "includeInNavigation": false,
+          "showAds": false,
+          "adTarget": "",
+          "headerFontColor": "",
+          "categoryNumber": "",
+          "children": [
+            {
+              "text": "Link",
+              "level": 2,
+              "order": 1,
+              "menuItemType": "link",
+              "typeFamily": "link_type",
+              "viewLayout": "web-view",
+              "appVersion": "list",
+              "itemPerFeed": 20,
+              "itemsOnHomeScreen": 5,
+              "includeInNavigation": false,
+              "showAds": false,
+              "adTarget": "",
+              "headerFontColor": "",
+              "openInBrowser": "",
+              "url": ""
+            },
+            {
+              "text": "Feed",
+              "level": 2,
+              "order": 2,
+              "menuItemType": "feed",
+              "feed":"http://developer.worldnow.com/category/346346....",
+              "typeFamily": "feed_type",
+              "viewLayout": "list",
+              "appVersion": "list",
+              "itemPerFeed": 20,
+              "itemsOnHomeScreen": 5,
+              "includeInNavigation": false,
+              "showAds": false,
+              "adTarget": "",
+              "headerFontColor": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "text": "weather",
+          "level": 1,
+          "order": 2,
+          "menuItemType": "weather",
+          "typeFamily": "weather_type",
+          "viewLayout": "weather",
+          "appVersion": "list",
+          "itemPerFeed": 20,
+          "itemsOnHomeScreen": 5,
+          "includeInNavigation": false,
+          "showAds": false,
+          "adTarget": "",
+          "headerFontColor": ""
+        },
+        {
+          "text": "slideshow",
+          "viewLayout": "slideshow",
+          "level": 1,
+          "order": 3,
+          "menuItemType": "slideshow",
+          "typeFamily": "slideshow_type",
+          "appVersion": "list",
+          "itemPerFeed": "",
+          "itemsOnHomeScreen": "",
+          "includeInNavigation": false,
+          "showAds": false,
+          "adTarget": "",
+          "headerFontColor": ""
+        }
+      ],
+      "updatedAt": "2016-02-23T09:13:38.936Z",
+      "createdAt": "2016-02-23T09:03:05.987Z",
+      "platform": "iOS"
+    }

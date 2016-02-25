@@ -1,0 +1,384 @@
+{
+  "client": {
+    "brand-header-image-url": "brandImage.png",
+    "default-item-photo-url": "WRCBplaceholderGraphic.jpg",
+    "item-photo-placement": "left",
+    "partner-id": "19",
+    "partner-name": "WRCB",
+    "push-enabled": "false",
+    "pushBehavior": {
+      "enabled": "true",
+      "default-provider": "parse",
+      "production-app-id": "WfeDmVCJB3qqmyJipaWMxbDoMnoDEFE4r1CcBlTD",
+      "production-app-key": "CaYnt8Yrj9PsKwTbownjpi3DA7BEGlFdYJdWhIMi"
+    },
+    "reportingBehavior": { "id": "UA-5728818-51"},
+    "adBehavior": [
+      {
+        "exclude-device": "iPhone",
+        "network": "dfp",
+        "network-key": "/43459271/nat-mob/wrcb/app-news",
+        "show-ads": "true",
+        "url": "http://ad.doubleclick.net/adi/wn.loc.wrcb.ext/ipad;sz=728x90",
+        "random-number-parameter": ";ord=",
+        "interstitial-ad-enabled": "true",
+        "interstitial-ad-server": "dfp",
+        "interstitial-ad-trigger-event": "foreground",
+        "interstitial-ad-show-percentage": "100",
+        "interstitial-ad-max-time-between-ads": "300000",
+        "interstitial-ad-min-time-between-ads": "12000",
+        "interstitial-ad-placeholder-timeout": "5000"
+      },
+      {
+        "exclude-device": "iPad",
+        "network": "dfp",
+        "network-key": "/43459271/loc-mob/wrcb/app-news",
+        "show-ads": "true",
+        "show-native-ads": "true",
+        "url": "http://ad.doubleclick.net/adi/wn.loc.wrcb/newstream;sz=320x50",
+        "random-number-parameter": ";ord=",
+        "interstitial-ad-enabled": "true",
+        "interstitial-ad-server": "dfp",
+        "interstitial-ad-trigger-event": "foreground",
+        "interstitial-ad-show-percentage": "100",
+        "interstitial-ad-max-time-between-ads": "300000",
+        "interstitial-ad-min-time-between-ads": "12000",
+        "interstitial-ad-placeholder-timeout": "5000"
+      }
+    ],
+    "brandCustomization": {
+      "fg-color-1": "ffffff",
+      "fg-color-2": "878787",
+      "bg-color-1": "303030",
+      "breaking-news-color": "d60c0c",
+      "font-1": "Averta-Bold",
+      "font-2": "Averta-Semibold"
+    },
+    "settings": {
+      "news-tip-email": "newstip@wrcbtv.com",
+      "share-photo-email": "pix@wrcbtv.com",
+      "bug-report-email": "news-app-support@franklyinc.com",
+      "call-us-phone": "423-266-5039",
+      "about-us-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_about.html",
+      "privacy-policy-url": "http://www.wrcbtv.com/story/18990/privacy-policy?clienttype=smartdevice",
+      "tos-url": "http://www.wrcbtv.com/story/18991/terms-of-service?clienttype=smartdevice"
+    },
+    "weather": {
+      "link": "true",
+      "hide-hilo": "false"
+    },
+    "section": [
+      {
+        "show-in-version": "list",
+        "items-in-homepage": "10",
+        "header-font-color": "303030",
+        "exclude-from-pager": "true",
+        "push-segmentation-tag": "news",
+        "icon-url": "house.png",
+        "title": "Breaking News",
+        "item-photo-placement": "left",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/category/310315/breaking-news",
+          "premium-url": "http://developer.worldnow.com/feed/categories/310315/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "5",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "news",
+        "icon-url": "house.png",
+        "title": "Top Stories",
+        "item-photo-placement": "left",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/Global/category.asp?C=123971&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/123971/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "icon-url": "weatherlight.png",
+        "title": "Weather",
+        "item-photo-placement": "none",
+        "items-per-feed": "10",
+        "view-layout": "weather",
+        "feed": [
+          {
+            "item-query-suffix": "&clienttype=rssstory&config=media",
+            "url": "http://www.wrcbtv.com/Global/category.asp?C=123972&clienttype=rssweather",
+            "premium-url": "http://www.wrcbtv.com/Global/category.asp?C=123972&clienttype=rssweather",
+            "view-layout": "current-conditions"
+          },
+          {
+            "item-query-suffix": "&clienttype=rssstory&config=media",
+            "url": "http://www.wrcbtv.com/Global/category.asp?C=123972&clienttype=rssweather",
+            "premium-url": "http://www.wrcbtv.com/Global/category.asp?C=123972&clienttype=rssweather",
+            "view-layout": "todays-forecast"
+          },
+          {
+            "item-query-suffix": "&clienttype=rssstory&config=media",
+            "url": "http://www.wrcbtv.com/Global/category.asp?C=123972&clienttype=rssweather",
+            "premium-url": "http://www.wrcbtv.com/Global/category.asp?C=123972&clienttype=rssweather",
+            "view-layout": "extended-forecast-vertical"
+          },
+          {
+            "exclude-device": "iPhone",
+            "url": "http://mobile.mobdub.com/wrcb_tablet_weather.xml",
+            "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_tablet_weather.json",
+            "view-layout": "list"
+          },
+          {
+            "exclude-device": "iPad",
+            "url": "http://mobile.mobdub.com/wrcb_iphone_weather.xml",
+            "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_iphone_weather.json",
+            "view-layout": "list"
+          }
+        ]
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "sports",
+        "icon-url": "gameplan.png",
+        "title": "Sports",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/global/Category.asp?c=187870&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/123975/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "video",
+        "icon-url": "tv.png",
+        "title": "Video",
+        "item-photo-placement": "left",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": [
+          {
+            "items-per-feed": "3",
+            "exclude-device": "iPhone",
+            "url": "http://mobile.mobdub.com/wrcb_live_vid_cat_tablet.xml",
+            "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_live_vid_cat_tablet.json",
+            "view-layout": "list"
+          },
+          {
+            "items-per-feed": "3",
+            "title": "Live Video",
+            "url": "http://mobile.mobdub.com/wrcb_live_vid_cat_iphone.xml",
+            "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_live_vid_cat_iphone.json",
+            "exclude-device": "iPad",
+            "view-layout": "list"
+          },
+          {
+            "title": "Video",
+            "url": "http://www.wrcbtv.com/Global/category.asp?C=123979&clienttype=rssmedia",
+            "premium-url": "http://developer.worldnow.com/feed/categories/123979/clips?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+            "view-layout": "list"
+          }
+        ]
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "traffic",
+        "icon-url": "car.png",
+        "title": "Traffic",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "exclude-device": "iPad",
+        "feed": {
+          "url": "http://mobile.mobdub.com/wrcb_traffic_phone.xml",
+          "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_traffic_phone.json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "traffic",
+        "icon-url": "car.png",
+        "title": "Traffic",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "exclude-device": "iPhone",
+        "feed": {
+          "url": "http://mobile.mobdub.com/wrcb_traffic_tablet.xml",
+          "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_traffic_tablet.json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "tn-headlines",
+        "icon-url": "tennes.png",
+        "title": "TN Headlines",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/global/Category.asp?c=190640&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/50813/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "ga-headlines",
+        "icon-url": "georgia.png",
+        "title": "GA Headlines",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/global/Category.asp?c=190651&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/50919/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "al-headlines",
+        "icon-url": "bama.png",
+        "title": "AL Headlines",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/global/Category.asp?C=194376&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/50928/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "us-headlines",
+        "icon-url": "newspaper.png",
+        "title": "US Headlines",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/Global/category.asp?C=13530&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/13530/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "world-headlines",
+        "icon-url": "globe.png",
+        "title": "World Headlines",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/Global/category.asp?C=13533&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/13533/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "all",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "strange-news",
+        "icon-url": "alien.png",
+        "title": "Strange News",
+        "item-photo-placement": "right",
+        "items-per-feed": "20",
+        "view-layout": "list",
+        "feed": {
+          "item-query-suffix": "&clienttype=rssstory&config=media",
+          "url": "http://www.wrcbtv.com/global/Category.asp?c=13544&clienttype=rss",
+          "premium-url": "http://developer.worldnow.com/feed/categories/13544/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "mobdub",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "more",
+        "icon-url": "bus.png",
+        "icon-res": "calend_wbay",
+        "title": "More",
+        "suppress-ads": "true",
+        "exclude-device": "iPhone",
+        "view-layout": "list",
+        "items-per-feed": "15",
+        "feed": {
+          "url": "http://mobile.mobdub.com/wrcb_tablet_tools.xml",
+          "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_tablet_tools.json",
+          "view-layout": "list"
+        }
+      },
+      {
+        "show-in-version": "mobdub",
+        "items-in-homepage": "3",
+        "header-font-color": "303030",
+        "exclude-from-pager": "false",
+        "push-segmentation-tag": "more",
+        "icon-url": "bus.png",
+        "icon-res": "calend_wbay",
+        "title": "More",
+        "suppress-ads": "true",
+        "exclude-device": "iPad",
+        "view-layout": "list",
+        "items-per-feed": "15",
+        "feed": {
+          "url": "http://mobile.mobdub.com/wrcb_iphone_tools.xml",
+          "premium-url": "https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_iphone_tools.json",
+          "view-layout": "list"
+        }
+      }
+    ]
+  }
+}

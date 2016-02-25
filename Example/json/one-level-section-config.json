@@ -1,0 +1,152 @@
+{
+  "client":{
+    "xmlns":"http://www.mobdub.com/newsmanifest",
+    "xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instanceb",
+    "xmlns:xs":"http://www.w3.org/2001/XMLSchema",
+    "xmlns:ns":"http://www.mobdub.com/newsmanifest",
+    "xmlns:hfp":"http://www.w3.org/2001/XMLSchema-hasFacetAndProperty",
+    "brand-header-image-url":"brandImage.png",
+    "default-item-photo-url":"WRCBplaceholderGraphic.jpg",
+    "item-photo-placement":"left",
+    "partner-id":"19",
+    "partner-name":"WRCB",
+    "push-enabled":"false",
+    "xsi:schemaLocation":"http://www.mobdub.com/newsmanifest http://www.mobdub.com/public/schema/newsmanifest.xsd",
+    "pushBehavior": {
+      "frn-default-provider": "parse",
+      "pushService": {
+        "provider": "parse",
+        "production-app-id": "WfeDmVCJB3qqmyJipaWMxbDoMnoDEFE4r1CcBlTD",
+        "production-app-key": "CaYnt8Yrj9PsKwTbownjpi3DA7BEGlFdYJdWhIMi"
+      }
+    },
+    "reportingBehavior":{
+      "id":"UA-5728818-51"
+    },
+    "adBehavior":[
+      {
+        "exclude-device":"iPhone",
+        "network":"dfp",
+        "network-key":"/43459271/nat-mob/wrcb/app-news",
+        "show-ads":"true",
+        "url":"http://ad.doubleclick.net/adi/wn.loc.wrcb.ext/ipad;sz=728x90",
+        "random-number-parameter":";ord=",
+        "video-preroll-url":" ",
+        "frn-interstitial-ad-enabled":"true",
+        "frn-interstitial-ad-placeholder-image-url":" ",
+        "frn-interstitial-ad-server":"dfp",
+        "frn-interstitial-ad-unit-id":" ",
+        "frn-interstitial-ad-trigger-event":"foreground",
+        "frn-interstitial-ad-show-percentage":"100",
+        "frn-interstitial-ad-max-time-between-ads":"300000",
+        "frn-interstitial-ad-min-time-between-ads":"12000",
+        "frn-interstitial-ad-placeholder-timeout":"5000"
+      },
+      {
+        "exclude-device":"iPad",
+        "network":"dfp",
+        "network-key":"/43459271/loc-mob/wrcb/app-news",
+        "show-ads":"true",
+        "frn-show-native-ads":"true",
+        "url":"http://ad.doubleclick.net/adi/wn.loc.wrcb/newstream;sz=320x50",
+        "random-number-parameter":";ord=",
+        "video-preroll-url":" ",
+        "frn-interstitial-ad-enabled":"true",
+        "frn-interstitial-ad-placeholder-image-url":" ",
+        "frn-interstitial-ad-server":"dfp",
+        "frn-interstitial-ad-unit-id":" ",
+        "frn-interstitial-ad-trigger-event":"foreground",
+        "frn-interstitial-ad-show-percentage":"100",
+        "frn-interstitial-ad-max-time-between-ads":"300000",
+        "frn-interstitial-ad-min-time-between-ads":"12000",
+        "frn-interstitial-ad-placeholder-timeout":"5000"
+      }
+    ],
+    "brandCustomization":{
+      "fg-color-1":"ffffff",
+      "fg-color-2":"878787",
+      "bg-color-1":"303030",
+      "breaking-news-color":"d60c0c",
+      "font-1":"Averta-Bold",
+      "font-2":"Averta-Semibold"
+    },
+    "settings":{
+      "news-tip-email":"newstip@wrcbtv.com",
+      "share-photo-email":"pix@wrcbtv.com",
+      "bug-report-email":"news-app-support@franklyinc.com",
+      "call-us-phone":"423-266-5039",
+      "about-us-url":"https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_about.html",
+      "privacy-policy-url":"http://www.wrcbtv.com/story/18990/privacy-policy?clienttype=smartdevice",
+      "tos-url":"http://www.wrcbtv.com/story/18991/terms-of-service?clienttype=smartdevice"
+    },
+    "frn-weather":{
+      "link":"true",
+      "hide-hilo":"false"
+    },
+    "section": [
+      {
+        "title": "Home",
+        "view-layout": "list",
+        "frn-show-in-version": "list",
+        "items-per-feed": "10",
+        "item-photo-placement": "left",
+        "frn-items-in-homepage": "10",
+        "frn-exclude-from-pager": "true",
+        "suppress-ads": "true",
+        "ad-target": "Home",
+        "frn-header-font-color": "#FFFFFF"
+      },
+      {
+        "title": "Sports",
+        "feed": [
+          {
+            "url": "http://worldnow.com/..."
+          },
+          {
+            "url": "http://worldnow.com/..."
+          }
+        ],
+        "frn-show-in-version": "list",
+        "items-per-feed": "10",
+        "item-photo-placement": "~myEmptyString~",
+        "frn-items-in-homepage": "10",
+        "frn-exclude-from-pager": "~myEmptyString~",
+        "suppress-ads": "true",
+        "ad-target": "Home",
+        "frn-header-font-color": "#FFFFFF",
+        "view-layout": "list"
+      },
+      {
+        "title": "Local Sports",
+        "webView": {
+          "url": "http://www.wxyz.com"
+        },
+        "url": "http://www.wxyz.com",
+        "suppress-ads": "false",
+        "view-layout": "web-view"
+      },
+      {
+        "view-layout": "list",
+        "title": "Sports",
+        "suppress-ads": "true",
+        "ad-target": "Home",
+        "frn-header-font-color": "#FFFFFF"
+      },
+      {
+        "title": "Weather",
+        "view-layout": "weather"
+      },
+      {
+        "title": "Local Weather",
+        "item-photo-placement": "left",
+        "frn-exclude-from-pager": "true",
+        "frn-show-in-version": "list",
+        "items-per-feed": "10",
+        "frn-items-in-homepage": "10",
+        "suppress-ads": "true",
+        "ad-target": "Home",
+        "frn-header-font-color": "#FFFFFF"
+      }
+    ]
+  }
+}

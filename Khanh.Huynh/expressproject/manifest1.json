@@ -1,0 +1,93 @@
+{
+   "@brand-header-image-url": "brandImage.png",
+   "@default-item-photo-url": "WRCBplaceholderGraphic.jpg",
+   "@item-photo-placement": "left",
+   "@partner-id": "19",
+   "@partner-name": "WRCB",
+   "@push-enabled": "false",
+   "@schemaLocation": "http://www.mobdub.com/newsmanifest http://www.mobdub.com/public/schema/newsmanifest.xsd",
+   "section": [
+      {
+         "@frn-show-in-version": "all",
+         "@frn-items-in-homepage": "5",
+         "@frn-header-font-color": "303030",
+         "@frn-exclude-from-pager": "false",
+         "@frn-push-segmentation-tag": "news",
+         "@icon-url": "house.png",
+         "@title": "Top Stories",
+         "@item-photo-placement": "left",
+         "@items-per-feed": "20",
+         "@view-layout": "list",
+         "feed": [
+            {
+               "@item-query-suffix": "&clienttype=rssstory&config=media",
+               "@url": "http://www.wrcbtv.com/Global/category.asp?C=123971&clienttype=rss",
+               "@frn-premium-url": "http://developer.worldnow.com/feed/categories/123971/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+               "@view-layout": "list"
+            },
+            {
+               "@item-query-suffix": "&clienttype=rssstory&config=media",
+               "@url": "http://www.wrcbtv.com/Global/category.asp?C=123971&clienttype=rss",
+               "@frn-premium-url": "http://developer.worldnow.com/feed/categories/123971/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+               "@view-layout": "list"
+            }
+         ],
+         "section": [
+            {
+               "@frn-show-in-version": "all",
+               "@frn-items-in-homepage": "5",
+               "@frn-header-font-color": "303030",
+               "@frn-exclude-from-pager": "false",
+               "@frn-push-segmentation-tag": "news",
+               "@icon-url": "house.png",
+               "@title": "Top Stories",
+               "@item-photo-placement": "left",
+               "@items-per-feed": "20",
+               "@view-layout": "list",
+               "feed": {
+                  "@item-query-suffix": "&clienttype=rssstory&config=media",
+                  "@url": "http://www.wrcbtv.com/Global/category.asp?C=123971&clienttype=rss",
+                  "@frn-premium-url": "http://developer.worldnow.com/feed/categories/123971/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+                  "@view-layout": "list"
+               }
+            },
+            {
+               "@frn-show-in-version": "all",
+               "@frn-items-in-homepage": "5",
+               "@frn-header-font-color": "303030",
+               "@frn-exclude-from-pager": "false",
+               "@frn-push-segmentation-tag": "news",
+               "@icon-url": "house.png",
+               "@title": "Top Stories",
+               "@item-photo-placement": "left",
+               "@items-per-feed": "20",
+               "@view-layout": "list",
+               "feed": {
+                  "@item-query-suffix": "&clienttype=rssstory&config=media",
+                  "@url": "http://www.wrcbtv.com/Global/category.asp?C=123971&clienttype=rss",
+                  "@frn-premium-url": "http://developer.worldnow.com/feed/categories/123971/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+                  "@view-layout": "list"
+               }
+            }
+         ]
+      },
+      {
+         "@frn-show-in-version": "all",
+         "@frn-items-in-homepage": "5",
+         "@frn-header-font-color": "303030",
+         "@frn-exclude-from-pager": "false",
+         "@frn-push-segmentation-tag": "news",
+         "@icon-url": "house.png",
+         "@title": "Top Stories",
+         "@item-photo-placement": "left",
+         "@items-per-feed": "20",
+         "@view-layout": "list",
+         "feed": {
+            "@item-query-suffix": "&clienttype=rssstory&config=media",
+            "@url": "http://www.wrcbtv.com/Global/category.asp?C=123971&clienttype=rss",
+            "@frn-premium-url": "http://developer.worldnow.com/feed/categories/123971/stories?apikey=sarkestarzian-FranklyApps-wrcb-e&context-affiliate-id=750&alt=json",
+            "@view-layout": "list"
+         }
+      }
+   ]
+}
