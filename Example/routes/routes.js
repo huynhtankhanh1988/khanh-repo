@@ -6,7 +6,7 @@ var ruleController = require('../controller/ruleController');
 var storyController = require('../controller/storyController');
 var xmlController = require('../controller/xmlController');
 var js2jsController = require('../controller/js2jsController');
-var prejson = require('../controller/prejson');
+var mergeController = require('../controller/mergeController');
 
 exports.index = function(req, res){
   res.render('index', { title: 'Express' });
@@ -36,22 +36,14 @@ exports.storySearch = function(req, res){
 };
 
 exports.xmlGen = function(req, res){
-  xmlController.xmlGen(req, res);
+  js2jsController.xml(req, res);
 };
 
 exports.js2js = function(req, res){
   js2jsController.js2js(req, res);
 };
 
-exports.checkproperties = function(req, res){
-  xmlController.checkproperties(req, res);
+exports.merge = function(req, res){
+  mergeController.merge(req, res);
 };
 
-exports.checkObjectData = function(req, res){
-  xmlController.checkObjectData(req, res);
-};
-
-exports.prejson = function(req, res){
-  prejson.prejson(req, res);
-  //res.end("hello");
-};

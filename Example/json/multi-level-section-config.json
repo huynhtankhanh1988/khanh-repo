@@ -1,7 +1,7 @@
 {
   "client": {
     "partner-id": "750",
-    "partner-name": "",
+    "partner-name": "<0>0",
     "xsi:schemaLocation": "http://www.mobdub.com/newsmanifest                               http://www.mobdub.com/public/schema/newsmanifest.xsd",
     "xmlns": "http://www.mobdub.com/newsmanifest",
     "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -28,11 +28,11 @@
       "network": "dfp",
       "network-key": "/43459271/nat-mob/wrcb/app-news",
       "show-ads": "false",
-      "video-preroll-url": "~myEmptyString~",
+      "video-preroll-url": "",
       "video-enable": "true",
-      "random-number-parameter": "~myEmptyString~",
+      "random-number-parameter": "",
       "interstitial-ad-enabled": "true",
-      "interstitial-ad-placeholder-image-url": "~myEmptyString~",
+      "interstitial-ad-placeholder-image-url": "",
       "interstitial-ad-server": "dfp",
       "interstitial-ad-trigger-event": "foreground",
       "interstitial-ad-show-percentage": "100",
@@ -40,7 +40,7 @@
       "recommendation": {
         "outbrain": {
           "true": "false",
-          "frn-outbrain-widgetId": "~myEmptyString~"
+          "frn-outbrain-widgetId": ""
         }
       }
     },
@@ -49,7 +49,7 @@
       "fg-color-2": "FA1234",
       "bg-color-1": "FA1234",
       "breaking-news-color": "CB3243",
-      "font-1": "~myEmptyString~",
+      "font-1": "",
       "header-font-color": "121242"
     },
     "settings": {
@@ -61,23 +61,32 @@
       "privacy-policy-url": "http://www.wrcbtv.com/story/18990/privacy-policy?clienttype=smartdevice",
       "tos-url": "http://www.wrcbtv.com/story/18991/terms-of-service?clienttype=smartdevice",
       "facebook": {
-        "facebook-id": "~myEmptyString~",
-        "facebook-secret": "~myEmptyString~",
-        "facebook-username": "~myEmptyString~"
+        "facebook-id": "",
+        "facebook-secret": "",
+        "facebook-username": ""
       },
-      "twitter-username": "~myEmptyString~",
-      "instagram-username": "~myEmptyString~",
-      "blog-url": "~myEmptyString~",
-      "secondaryBlogUrl": "~myEmptyString~",
-      "ugc-url": "~myEmptyString~"
+      "twitter-username": "",
+      "instagram-username": "",
+      "blog-url": "",
+      "secondaryBlogUrl": "",
+      "ugc-url": ""
+    },
+    "trafficMap": {
+      "default-center-lat": "123.456",
+      "default-center-long": "123.456",
+      "default-altitude": "55000",
+      "default-overlays": "TrafficIncidents",
+      "default-layer": "Radar",
+      "suppress-ads": "true"
     },
     "section": [
       {
+        "title": "Breaking News",
         "view-layout": "list",
         "show-in-version": "list",
-        "frn-items-in-homepage": "~myEmptyString~",
+        "frn-items-in-homepage": "",
         "suppress-ads": "true",
-        "ad-target": "~myEmptyString~",
+        "ad-target": "",
         "feed": [
           {
             "frn-premium-url": "http://terralogic.com"
@@ -108,9 +117,9 @@
             ],
             "frn-show-in-version": "list",
             "items-per-feed": "10",
-            "item-photo-placement": "~myEmptyString~",
+            "item-photo-placement": "",
             "frn-items-in-homepage": "10",
-            "frn-exclude-from-pager": "~myEmptyString~",
+            "frn-exclude-from-pager": "",
             "suppress-ads": "true",
             "ad-target": "Home",
             "frn-header-font-color": "#FFFFFF",
@@ -186,9 +195,9 @@
         ],
         "frn-show-in-version": "list",
         "items-per-feed": "10",
-        "item-photo-placement": "~myEmptyString~",
+        "item-photo-placement": "",
         "frn-items-in-homepage": "10",
-        "frn-exclude-from-pager": "~myEmptyString~",
+        "frn-exclude-from-pager": "",
         "suppress-ads": "true",
         "ad-target": "Home",
         "frn-header-font-color": "#FFFFFF",

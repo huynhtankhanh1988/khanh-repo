@@ -1,0 +1,44 @@
+<client partner-id="750" partner-name="&lt;0&gt;0" xsi:schemaLocation="http://www.mobdub.com/newsmanifest                               http://www.mobdub.com/public/schema/newsmanifest.xsd" xmlns="http://www.mobdub.com/newsmanifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns="http://www.mobdub.com/newsmanifest" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+  <pushBehavior enabled="true" frn-default-provider="parse">
+    <pushService production-app-id="parse-app-id-1986523584" production-app-key="parse-app-key-1986523584" />
+    <chanel push-segmentation-tag="chanel-id-19862354" />
+  </pushBehavior>
+  <reportingBehavior id="UA-5728818-51" />
+  <adBehavior network="dfp" network-key="/43459271/nat-mob/wrcb/app-news" show-ads="false" video-preroll-url="" video-enable="true" random-number-parameter="" interstitial-ad-enabled="true" interstitial-ad-placeholder-image-url="" interstitial-ad-server="dfp" interstitial-ad-trigger-event="foreground" interstitial-ad-show-percentage="100" interstitial-ad-placeholder-timeout="5000">
+    <recommendation>
+      <outbrain true="false" frn-outbrain-widgetId="" />
+    </recommendation>
+  </adBehavior>
+  <brandCustomization fg-color-1="346644" fg-color-2="FA1234" bg-color-1="FA1234" breaking-news-color="CB3243" font-1="" header-font-color="121242" />
+  <settings news-tip-email="newstip@wrcbtv.com" share-photo-email="pix@wrcbtv.com" bug-report-email="news-app-support@franklyinc.com" call-us-phone="423-266-5039" about-us-url="https://s3.amazonaws.com/universal-news-apps-feeds/wrcb-feeds/wrcb_about.html" privacy-policy-url="http://www.wrcbtv.com/story/18990/privacy-policy?clienttype=smartdevice" tos-url="http://www.wrcbtv.com/story/18991/terms-of-service?clienttype=smartdevice" twitter-username="" instagram-username="" blog-url="" secondaryBlogUrl="" ugc-url="">
+    <facebook facebook-id="" facebook-secret="" facebook-username="" />
+  </settings>
+  <trafficMap default-center-lat="123.456" default-center-long="123.456" default-altitude="55000" default-overlays="TrafficIncidents" default-layer="Radar" suppress-ads="true" />
+  <section title="Breaking News" view-layout="list" show-in-version="list" frn-items-in-homepage="" suppress-ads="true" ad-target="">
+    <feed frn-premium-url="http://terralogic.com" />
+  </section>
+  <section title="Home" view-layout="list" frn-show-in-version="list" items-per-feed="10" item-photo-placement="left" frn-items-in-homepage="10" frn-exclude-from-pager="true" suppress-ads="true" ad-target="Home" frn-header-font-color="#FFFFFF">
+    <section title="Sports" frn-show-in-version="list" items-per-feed="10" item-photo-placement="" frn-items-in-homepage="10" frn-exclude-from-pager="" suppress-ads="true" ad-target="Home" frn-header-font-color="#FFFFFF" view-layout="list">
+      <feed url="http://worldnow.com/..." />
+      <feed url="http://worldnow.com/..." />
+      <section title="Local Sports" url="http://www.wxyz.com" suppress-ads="false" view-layout="web-view">
+        <webView url="http://www.wxyz.com" />
+      </section>
+    </section>
+    <section view-layout="list" title="Sports">
+      <section view-layout="web-link" title="Local Sports" url="http://www.wxyz.com" />
+      <feed frn-premium-url="category-url" item-query-suffix="category-query" />
+    </section>
+    <section title="Weather">
+      <section title="Local Weather" item-photo-placement="left" frn-exclude-from-pager="true" frn-show-in-version="list" items-per-feed="10" frn-items-in-homepage="10" suppress-ads="true" ad-target="Home" frn-header-font-color="#FFFFFF">
+        <feed frn-premium-url="slide-show-url" item-query-suffix="slide-show-query" />
+      </section>
+    </section>
+    <feed frn-premium-url="category-url" item-query-suffix="category-query" />
+  </section>
+  <section title="News" frn-show-in-version="list" items-per-feed="10" item-photo-placement="" frn-items-in-homepage="10" frn-exclude-from-pager="" suppress-ads="true" ad-target="Home" frn-header-font-color="#FFFFFF">
+    <feed url="http://worldnow.com..." />
+    <feed url="http://worldnow.com..." />
+    <section view-layout="web-link" title="Local News" url="http://www.wxyz.com" />
+  </section>
+</client>

@@ -1,0 +1,8 @@
+{
+  "config": {
+    "pushBehavior": {
+      "enabled": "false",
+      "defaultProvider": "urbanAirship"
+    }
+  }
+}

@@ -1,8 +1,9 @@
-var jsonFile = require('jsonfile')
+var jsonFile = require('fs')
 var util = require('util');
-var o2x = require('object-to-xml');
+var o2x = require('../entity/object-to-xml');
 var StringBuilder = require('../entity/string-builder');
 var properties; // Child properties
+
 
 function IsJson(object) {
     if (typeof(object)=="object"){
@@ -207,14 +208,18 @@ exports.xmlGen = function(request, response){
 
     var appConfig = '', mapping = '';
     jsonFile.readFile(file, function(err, obj) {
-        appConfig = obj;
+        appConfig = JSON.parse(obj);
         jsonFile.readFile(mappingFile, function(err, obj) {
-            mapping = obj;
+            mapping = JSON.parse(obj);
             var strJsonClient = '{' +  jsonGen('client', mapping.client, appConfig.client) + '}';
             console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
             console.log(strJsonClient);
-            var xml = o2x(JSON.parse(strJsonClient)).toString();
-            xml = xml.replace(/~myEmptyString~/g, "");
+            var xml = o2x(JSON.parse(strJsonClient));
+            jsonFile.writeFile('manifest.xml', xml,  function(err) {
+               if (err) {
+                    response.end(err);
+               }
+            });
             response.end(xml);
         });
     });

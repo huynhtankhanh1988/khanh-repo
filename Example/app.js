@@ -35,7 +35,7 @@ app.delete('/rules/:ruleId', routes.deleteRule);
 app.post('/stories/search', routes.storySearch);
 app.get('/xml', routes.xmlGen);
 app.get('/js2js', routes.js2js);
-
+app.get('/merge', routes.merge);
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

@@ -93,6 +93,7 @@
       }
     },
     "breakingNews" : {
+      "title" : "title",
       "viewLayout" : "view-layout",
       "feedUrl" : "frn-premium-url",
       "showInVersion" : "show-in-version",
