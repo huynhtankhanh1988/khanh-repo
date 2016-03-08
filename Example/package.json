@@ -7,8 +7,6 @@
     "express": "2.5.8",
     "jade": ">= 0.0.1",
     "js2xmlparser": "^1.0.0",
-    "jsonfile": "^2.2.3",
-    "sanitizer": "0.0.15",
-    "superagent": "^1.8.0-beta.2"
+    "jsonfile": "^2.2.3"
   }
 }
