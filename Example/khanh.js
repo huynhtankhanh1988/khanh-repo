@@ -20,6 +20,7 @@ app.configure('production', function(){
 });
 
 app.get('/prejson', routes.prejson);
+app.get('/prejson1', routes.prejson);
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
